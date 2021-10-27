@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de contador de palavras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Contador de Caracteres</h1>
+        </header>
+        <section>
+            <article>
+                <textarea name="text" id="text" placeholder="Insira o texto para análise" oninput="calcular()"></textarea>
+                <div id="resultado">
+                    <h1>Resultado:</h1>
+                    <p>Caracteres: <span id="chars">0</span></p>
+                    <p>Palavras: <span id="words">0</span></p>
+                    <p>Linhas: <span id="lines">0</span></p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
